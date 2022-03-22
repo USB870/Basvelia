@@ -1,8 +1,8 @@
 <?php
-    define('USER', 'basvelia');
+    define('USER', '');
     define('PASSWORD', '');
-    define('HOST', 'localhost');
-    define('DATABASE', 'my_basvelia');
+    define('HOST', '');
+    define('DATABASE', '');
     try {
         $connection = new PDO("mysql:host=".HOST.";dbname=".DATABASE, USER, PASSWORD);
     } catch (PDOException $e) {
